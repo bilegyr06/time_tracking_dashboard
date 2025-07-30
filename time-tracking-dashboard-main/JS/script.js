@@ -53,7 +53,7 @@ fetch('./data.json')
         })
      
     })
-    .catch(error => console.error('Fetch Error'))
+    .catch(error => console.error(`Fetch Error: ${error}`))
 
 
     
